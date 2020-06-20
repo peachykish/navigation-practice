@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.topnav {
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+    border: black solid 1px;
+    display: flex;
+    flex-direction: row;
+    align-content: right;
+}
+.topnav a {
+    float: left;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+}
+.topnav a:hover {
+    background-color: lightgray;
+}
+;
+}
+}
+@media (min-width: 550px){
+.topnav{
+ display: none;
+    } 
+}
