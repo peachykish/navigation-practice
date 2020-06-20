@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 .topnav {
     font-family: 'Montserrat', sans-serif;
@@ -18,9 +19,6 @@
 }
 .topnav a:hover {
     background-color: lightgray;
-}
-;
-}
 }
 @media (min-width: 550px){
 .topnav{
