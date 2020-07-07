@@ -10,21 +10,42 @@
 </head>
 
 <body>
-    <h1>Air B&B</h1>
-    <a href="#" id="toggle-button" class="toggle-button">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-    </a>
-    <div class="topnav">
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#addlisting">Add Listing</a></li>
-            <li><a href="#saved">Saved</a></li>
-            <li><a href="#trips">Trips</a></li>
-            <li><a href="#messages">Messages</a></li>
-        </ul>
-    </div>
+    <header>
+        <div class="search-wrapper">
+                <img class="logo" src="./images/logo.png" alt="logo">
+            <form class="search-form" action=""role="search">
+                <input class="search-text" type="search" placeholder='Try "Vancouver"'autocomplete="off">
+
+            </form>   
+
+        </div> 
+    
+        <input type="checkbox" id="nav-toggle" class="nav-toggle"> 
+
+        <nav>
+            <ul>
+                <li><a href="#">Add Listing</a></li>
+                <li><a href="#">Host</a></li>
+                <li><a href="#">Saved</a></li>
+                <li><a href="#">Trips</a></li>
+                <li><a href="#">Messages</a></li>
+                <li><a href="#">Help</a></li>
+
+            </ul>
+            <div class="profile-container">
+                <ul>
+                    <li>
+                        <img class="profile-pic" src="./images/profile.jpg" alt="profile">
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <span>
+
+            </span>
+        </label>
+    </header>
 </body>
 
 </html>
